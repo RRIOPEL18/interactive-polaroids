@@ -60,7 +60,7 @@ html {
   transform: rotate(35deg);
   transition: all 250ms;
   left: 400px;
-  top: 100px;
+  top: 110px;
 }
 
 .polaroid:nth-child(3):hover {
