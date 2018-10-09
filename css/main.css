@@ -46,7 +46,7 @@ html {
   transform: rotate(5deg);
   transition: all 250ms;
   left: 325px;
-  bottom: 450px;
+  top: 250px;
 }
 
 .polaroid:nth-child(2):hover {
@@ -59,7 +59,7 @@ html {
   transform: rotate(35deg);
   transition: all 250ms;
   left: 450px;
-  bottom: 400px;
+  top: 300px;
 }
 
 .polaroid:nth-child(3):hover {
