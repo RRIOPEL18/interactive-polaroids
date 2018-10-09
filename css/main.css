@@ -12,6 +12,11 @@ html {
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
   position: absolute;
+  transition: auto;
+}
+
+.polaroid:hover {
+  transform-origin: center;
 }
 
 .polaroid > img {
@@ -55,7 +60,7 @@ html {
   bottom: 50%;
 }
 
-.polaroid:nth-child(3) {
+.polaroid:nth-child(3):hover {
   transform: rotate(0);
   z-index: 1;
 }
