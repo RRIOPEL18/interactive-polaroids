@@ -36,8 +36,8 @@ html {
   bottom: 50%;
 }
 
-.polariod:nth-child(1):hover {
-  transform: rotate(0);
+.polaroid:nth-child(1):hover {
+  transform: rotate(15deg);
   z-index: 1;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 1);
 }
@@ -50,7 +50,7 @@ html {
 }
 
 .polaroid:nth-child(2):hover {
-  transform: rotate(0);
+  transform: rotate(-5deg);
   z-index: 1;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 1);
 }
@@ -63,7 +63,7 @@ html {
 }
 
 .polaroid:nth-child(3):hover {
-  transform: rotate(0);
+  transform: rotate(5deg);
   z-index: 1;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 1);
 }
